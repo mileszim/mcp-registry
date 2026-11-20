@@ -11,6 +11,8 @@ about:
   title: Seekrit
   description: Manage encrypted application secrets and inject them into commands running in the container.
   icon: https://seekrit.dev/icon.svg
+# The image is public. Its build repository is private, so Docker reviewers
+# cannot independently verify the pinned source revision or the server's license.
 source:
   project: https://github.com/mileszim/seekrit
   commit: 29e693b11b965727b38470f21b1e3981f8bd4a81
